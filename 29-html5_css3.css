@@ -1,0 +1,77 @@
+body{
+    padding: 1em;
+    width: 99%;
+}
+body > header > a img{
+    border-radius: 50%;
+    max-width: 2%;
+}
+
+body > section > article{
+    border: 1px dotted cadetblue;
+    margin: .5em 1em;
+    padding: 1em;
+    width: 46%;
+    float: left;
+}
+body > section > article.clearfix {
+    overflow: auto;
+}
+body > section > article img{
+    float: right;
+    border-bottom: 1px dotted grey;
+}
+body > footer{
+    clear: both;
+    background: linear-gradient(hsl(180, 100%, 10%), teal);
+    color: white;
+    padding: 2em;
+}
+body > footer a{
+    color: Cyan;
+    text-decoration: none;
+}
+body > footer a:hover{
+    color: Aquamarine;
+    text-decoration: underline;
+}
+body > footer a:visited{
+    color: WhiteSmoke;
+}
+body > header h1, body > header nav ul li, body > header nav ul li a{
+    display: inline;
+}
+
+/* menu vertical divider */ 
+body > header nav ul li {
+    border-right: 1px solid black;
+    padding: 0 1em 0 0;
+    margin:.5em;
+}
+
+/*Pour enlever la barre sur le dernier élément */
+body > header nav ul li:last-child {
+    border-right: none;
+}
+
+
+/* Footer COL */	
+body > footer > aside{
+    width : 23%;
+    float: right;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 19em;
+    text-align: right;
+}  
+
+/* media queries */
+
+@media only screen and (max-width: 1450px) {
+body > section > article {
+        width: 90%;
+    }  
+    body > section > article:nth-of-type(odd){
+        background-color: hsl(210, 38%, 95%);
+    }   
+}
