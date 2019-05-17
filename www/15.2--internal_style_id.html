@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internal style - selecteur : ID</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            h2{
+                font-size : 24px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .rouge{
+                color: red;
+            }
+            .vert{
+                color: green;
+            }
+            #nouveau{
+                border: 1px solid #3498db;
+                background-color: lavender;
+                margin: 20px 35px 25px 25px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Des articles, dont un unique ...</h1>
+        <article>        
+            <h2 class="rouge"> Titre de l'article  de niveau 2 - taille 24px – couleur rouge</h2>
+            <p class="rouge"> paragraphe rouge</p>
+            <p> paragraphe </p>
+            <p> paragraphe </p>
+            <p> paragraphe </p>
+        </article>
+
+        <article id="nouveau"> 
+            <h2> Titre de l'article </h2>
+            <p> paragraphe </p>
+            <p> paragraphe </p>
+            <p> paragraphe </p>
+        </article>
+
+        <article> 
+            <h2 class="vert"> Titre de l'article  de niveau 2 - taille 24px – couleur vert</h2>
+            <p class="vert"> paragraphe rouge</p>
+            <p> paragraphe </p>
+            <p> paragraphe vert </p>
+        </article>
+
+        <article> 
+            <h2 class="rouge"> Titre de l'article  de niveau 2 - taille 24px – couleur rouge</h2>
+            <p class="rouge"> paragraphe rouge</p>
+            <p> paragraphe </p>
+            <p> paragraphe vert </p>
+        </article>
+    </body>
+</html>
