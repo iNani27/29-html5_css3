@@ -1,0 +1,364 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@iNani27
+
+1
+1
+
+    0
+
+iNani27/29-html5_css3
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+29-html5_css3/29-html5_css3.html
+@iNani27 iNani27 Update 29-html5_css3.html 297203d just now
+328 lines (301 sloc) 16.5 KB
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>29-HTML_CSS</title>
+        <meta name="description" content="Plan de la formation d'initiation aux langages web">
+        <meta name="keywords" content="web, html, css, html5, css3, media queries, responsive design, semantique, ">
+        <meta name="author" content="INani©FOBAGRA-2018">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="29-html5_css3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <a href="./" title="ROOT : 29-HTML_CSS"><img src="https://avatars3.githubusercontent.com/u/11973959?s=460&v=4" alt="Votre formatrice : Isabelle NANI" /></a>
+            <h1>Formation d'initiation aux langages web: <span title="HyperText Markup Language">HTML</span> et <span title="Cascading Style Sheets">CSS</span></h1>
+
+            <h2>Supports de cours : </h2>
+            <nav>
+                <ul>
+                    <li><a target="_blank" href="comment_fonctionnent_les_sites_web.pdf" title="Syllabus HTML">Le WEB c'est quoi?</a> <i class="fa fa-file-pdf-o"></i></li>
+                    <li><a target="_blank" href="exercices_html.pdf" title="TP html tags">Les balises HTML : exercices pratiques</a> <i class="fa fa-file-pdf-o"></i></li>
+                    <li><a target="_blank" href="html5.pdf" title="TP HTML5 semantic"> Mini site</a> <i class="fa fa-file-pdf-o"></i></li>
+                    <li><a target="_blank" href="zen_garden/index-no.html" title="The beauty of CSS Design ©Zen Garden">Le site Zen Garden sans CSS</a> 
+                        & <a target="_blank" href="zen_garden/index.html" title="The beauty of CSS Design ©Zen Garden">Le site Zen Garden avec CSS</a> 
+                    </li>
+                    <li><a target="_blank" href="comment_fonctionnent_les_sites_web.pdf#page=13" title="Syllabus attributs HTML">Les attributs</a> <i class="fa fa-file-pdf-o"></i></li>
+                    <li><a target="_blank" href="syllabus_css.pdf" title="Syllabus Règles de styles">CSS</a> <i class="fa fa-file-pdf-o"></i></li>
+                    <li><a target="_blank" href="https://sway.com/HtlMTcHDq6cjN6gh?ref=Link" title="Sway Mémo CSS">Mémo CSS</a> <img src="../images/sway_logo.svg.png" alt="Sway icon"></li>
+                    <li><a target="_blank" href="https://www.w3schools.com/css/exercise.asp?filename=exercise_syntax1" title="Exercices CSS en ligne">Les règles CSS : exercices en ligne</a> <img src="../images/W3C®_Icon.png" alt="Copyright : Logo W3C"> </li>
+                    <li><a target="_blank" href="https://inani27.github.io/Pi_Dr-ne/index.html" title="Le site des créateurs de drônes ©Fobagra"><strong>Objectif</strong> : site perso</a></li>
+                    <li><a target="_blank" href="https://sway.com/0UIfsMBeZMNn1gIJ?ref=Link" title="Sway pi drone">Pi drone</a> <img src="../images/sway_logo.svg.png" alt="Sway icon"></li> 
+
+                    <li><a target="_blank" href="https://sway.com/IGED7OyZFanaHLqO?ref=Link" title="Sway Media Queries">Media Queries</a> <img src="../images/sway_logo.svg.png" alt="Sway icon"></li> 
+
+
+                    <!-- <li><a target="_blank" href="" title=""></a></li> -->
+                </ul>
+            </nav>
+            <h2>Exercices résolus : </h2>
+            <p><a href='www/'>Dossier www</a></p>
+            <p> <a href='www/index.html'>Fichiers</A> n°<br/>
+                1->10 : balises principales <br />
+                11->12 : pages html liées<br />
+                13->17 : styles css<br />
+                ... le site 29-html5_css3
+            </p>
+            <p></p>
+        </header>
+        <section>
+            <h2> Programme réalisé : </h2>
+            <article>
+                <h3>Séance 1 et 2 :</h3> 
+                <p>Création d'un premier fichier web et interprétation du navigateur.</p>
+                <p> Balises html de base (Cf. liste + bas)</p>
+                <h4><span title="Travaux pratiques">Tp</span> : Jeu de caractères</h4>
+                <p>Meta charset </p>
+                <h4>Séance 1: </h4>
+                <p>   Logiciel : browser + bloc-notes</p>
+                <h4>Séance 2: </h4>
+                <p>  Logiciel : notepad ++ pour visualisation code .</p>
+                <h5>    Notions théoriques : </h5>
+                <p>Différences entre internet et web. Serveur local et serveur web. Site web en local et en prod.</p>
+            </article>
+            <article>
+                <h3>Séance 3: </h3>
+                <p> Logiciel: netbeans</p>
+                <p> How to ... Create project, tips : auto indentation, word wrap, running browser.</p>
+                <h4>   Tp :  Minisite</h4> 
+                <ol>
+                    <li>Règles de styles : Css attribut &lt;style=""&gt; inline.</li>
+                    <li>Structure de page en HTML5 semantic.</li>
+                </ol>
+
+
+                <p> Minisite 3 pages comparaison css:</p>
+                <ul>
+                    <li>inline </li>
+                    <li>internal  style sheet</li>
+                    <li>external style sheet.</li>
+                </ul>
+
+
+                <h5> Notions théoriques : </h5>
+                <p>URL relative et URL absolue ; Chemin et arborescence</p>
+                <p></p>
+
+            </article>
+            <article class="clearfix">
+                <h3>Séance 4</h3>
+                <h4>Tp : <a target="_blank" href="https://inani27.github.io/Pi_Dr-ne/index.html">Site</a></h4>
+                <p>  <img src="https://inani27.github.io/Pi_Dr-ne/images/obj.jpg" alt='Objectif site web'> Création du site objectif. Code HTML5 de base collaborative team coding. Code CSS3.
+                <h5>Notions théoriques : </h5>
+                <p>Balises semantiques ;   block - inline ; flux de contenu</p>
+
+            </article>
+            <article>         
+                <h3>Séance 5 </h3>
+                <h4>Tp : Règles de styles</h4>
+                <ol>
+                    <li> Menu Horizontal : mise en application des notions block et inline</li>
+                    <li> How to import other dev JS</li>
+                </ol>
+                <p> Css horz nav</p>
+
+                <p>    Collaborative dev. </p>
+                <p>   Github demo</p>
+
+                <h5>Notions théoriques : </h5>
+                <p>    Cascading style sheet demo.</p>
+                <p> Les outils du développeur : Dev tools firefox 
+
+                <h4>Tp : ID CLASS </h4>
+                <p>Exercices pratiques : attribut de style ID et CLASS.</p>
+            </article>
+            <article>
+                <h3>Séance 6 </h3>
+                <p>   Media querries</p>
+                <h4>   TP Timeline: Suivre un tuto en ligne</h4>
+                <p>      W3schools: Integration step by step HTML et CSS ext. Custom css charte graphique site by F12 inspect élément analyse dev HTML et CSS.</p>
+            </article>
+
+            <article>
+                <h2>Plan du cours : </h2>
+
+
+                <ul>
+                    <li><a target="_blank" href="comment_fonctionnent_les_sites_web.pdf">Comment fonctionnent les sites WEB ?</a></li>
+                    <li>Les langages WEB interprétés par les navigateurs
+                        <ul>
+                            <li>HTML
+                                <ul>
+                                    <li>Balises
+                                        <ul>
+                                            <li>doctype</li>
+                                            <li>html</li>
+                                            <li>head
+                                                <ul>
+                                                    <li>title</li>
+                                                    <li>charset</li>
+                                                    <li>meta
+                                                        <ul>
+                                                            <li>desc</li>
+                                                            <li>key</li>
+                                                            <li>author</li>
+                                                            <li><a lang="EN" target="_blank" href="https://www.w3schools.com/css/css_rwd_viewport.asp">viewport</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li> 
+                                            <li>body
+                                                <ul>
+                                                    <li>h1 - h6</li>
+                                                    <li>p</li>
+                                                    <li>ul/ol li</li>
+                                                    <li class="theo">Block - inline (notions)</li>
+                                                    <li>a</li>
+                                                    <li>img</li>
+                                                    <li><em>Bonus : </em> table</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>HTML5
+                                <ul>
+                                    <li>Structure
+                                        <ul>
+                                            <li>header
+                                                <ul>
+                                                    <li>nav</li>
+                                                </ul>
+                                            </li>
+                                            <li>footer</li>
+                                            <li>section</li>
+                                            <li>article</li>
+                                        </ul>
+                                    </li>
+                                    <li><em>Bonus : </em>Video</li>
+                                    <li>
+                                        Attribut
+                                        <ul>
+                                            <li>href</li>
+                                            <li>src
+                                                <ul>
+                                                    <li class="theo">URL rel absolue (rappel)</li>
+                                                    <li>alt
+                                                        <ul>
+                                                            <li>width</li>
+                                                            <li>height</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>title</li>
+                                            <li>lang</li>
+                                            <li>class</li>
+                                            <li>id</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>CSS
+                                <ul>
+                                    <li>Mise en forme du texte: police, taille, couleur</li>
+                                    <li>%</li>
+                                    <li>position, block, inline</li>
+                                </ul>
+                            </li>
+                            <li>CSS3
+                                <ul>
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp">border-radius</a></li>
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">media queries</a></li>
+                                    <li>
+                                        ...
+                                    </li>
+
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/css/css3_transitions.asp">transition</a>, 
+                                        <a lang="EN" target="_blank" href="https://www.w3schools.com/css/css3_animations.asp">animation</a>
+                                    </li>
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/css/css3_shadows.asp">shadow</a></li>
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/css/css3_gradients.asp">gradient</a></li>
+                                    <li><a lang="EN" target="_blank" href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp">@font-face</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <footer>
+            <pre>
+            WEB c'est quoi
+            Browser languages: 
+            HTML
+            Balises
+            doctype
+            html
+            head
+            title
+            charset
+            meta
+            desc
+            key
+            author
+            viewport
+            body
+            h1 - h6
+            p
+            ul/ol li
+            Block - inline (notions)
+            a
+            img
+            HTML5
+            Structure
+            header
+            nav
+            section
+            article
+            footer
+            Attribut
+            href
+            title
+            URL rel absolue (rappel)
+            src
+            alt
+            width
+            height
+            Styles
+            Zen Garden (demo)
+            Block - inline (exo)
+            style inline
+            style interne
+            style externe
+            responsive : media queries (+ sémantique)
+
+
+            TP
+            1->10 balises principales
+            11-12 pages html liées
+            13-17 styles
+            ... sites 29-html5_css3
+            </pre>
+
+            <aside>
+                <h2>Pour aller + loin :</h2>
+                <ul>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://code.tutsplus.com/tutorials/how-to-create-a-beautiful-icon-with-css3--net-21915">Design CSS3 : créer vos icônes</a> 
+                    </li>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/html/html5_new_elements.asp">W3School : HTML5 new Elements</a>
+                    </li>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/tags/default.asp">W3School : HTML reference</a>
+                    </li>
+
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/cssref/default.asp">W3School : CSS reference</a>
+                    </li>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/cssref/css_selectors.asp">W3School : CSS Selector reference</a>
+                    </li>   
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/colors/colors_names.asp">W3School : Les couleurs</a>    
+                    </li>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp">W3School : How TO - Social Media Buttons</a>    
+                    </li>
+                    <li>
+                        <a lang="EN" target="_blank" href="https://validator.w3.org/#validate_by_input">W3C Validator</a>    
+                    </li>
+                </ul>
+            </aside>
+            <p style="text-align: right; background-color: white; color:teal; ">&copy; FOBAGRA 2018 - Formatrice : Isabelle NANI</p>
+        </footer>
+    </body>
+</html>
+
+
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
